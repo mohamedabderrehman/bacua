@@ -26,13 +26,13 @@
   },
   {
     "path": "README.ar.md",
-    "bytes": 6637,
-    "sha256": "9be0c27296f2200b124d9454a5b06c28df27f7f9cd3ef679de7769ea6b6227af"
+    "bytes": 6645,
+    "sha256": "a5efe692f087effc4ceeb41c154a2c350f5bb58e1a73acf4aed7563c34a8ac43"
   },
   {
     "path": "README.md",
-    "bytes": 5469,
-    "sha256": "cba029128d02e5068865acaee19cb93cfa61cd190b53326adabc44f131c0ae4e"
+    "bytes": 5477,
+    "sha256": "3e88ae1d9ec62c2842d2b9fc8abd441ac8ab30fdbf7c29046ef5ca1be2539a56"
   },
   {
     "path": "SECURITY.md",
@@ -173,6 +173,16 @@
     "path": "docs/images/onboarding-desktop.jpg",
     "bytes": 16589,
     "sha256": "80e631cdf5780ddb04a792de719a34e82b0c7939b0f8071a6fe831c2b81e7f99"
+  },
+  {
+    "path": "docs/publication.ar.md",
+    "bytes": 707,
+    "sha256": "755c30302497a6290a9b9cef5ae16f64eb6fd2deac6ef1059ddda0c3e31f131f"
+  },
+  {
+    "path": "docs/publication.md",
+    "bytes": 627,
+    "sha256": "a00161c321b8598be24e3f7d1f2dd3fb34c9355ce8fa4f1b57af757fff36c4a5"
   },
   {
     "path": "docs/setup.ar.md",
