@@ -10,4 +10,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm ci && npm run typecheck && npm run build:web
+      - run: npm ci && npm run typecheck && npm run check:markdown && npm run build:web

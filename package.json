@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "fix-deps": "expo install --fix",
     "web": "expo start --web",
-    "build:web": "expo export --platform web"
+    "build:web": "expo export --platform web",
+    "check:markdown": "node tools/check-markdown.cjs"
   },
   "dependencies": {
     "@expo-google-fonts/ibm-plex-sans-arabic": "^0.4.2",

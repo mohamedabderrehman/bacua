@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
-import { AccessibilityInfo, StyleSheet } from 'react-native';
+import { AccessibilityInfo, StyleSheet, Text } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Stack, useRouter, useSegments } from 'expo-router';
@@ -95,6 +95,7 @@ export default function RootLayout() {
     <GestureHandlerRootView style={styles.root}>
       <SafeAreaProvider>
         <StatusBar style="light" />
+        <Text style={{color:colors.text.mid,textAlign:"center",padding:6,fontSize:12}}>عرض واجهة — تسجيل الدخول والمساعد محاكاة محلية</Text>
         <Stack
           screenOptions={{
             headerShown: false,

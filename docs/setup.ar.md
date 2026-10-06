@@ -1,31 +1,31 @@
-# الإعداد
+# الإعداد الكامل
 
-ثبّت باستخدام `npm ci` ثم شغّل `npm start` أو `npm run web`. افحص الأنواع عبر `npm run typecheck` وصدّر الويب عبر `npm run build:web`. لا تتطلب المصادقة أو الإجابات المحاكية بيانات خادم. قدم `dist/` عبر HTTP.
+استخدم اعتماديات Expo SDK 54 المثبتة في القفل. لا يحتاج العرض خادماً أو بيانات مزود. الويب افتراضياً EXPO_PUBLIC_ENABLE_SKIA_WEB=0؛ القيمة 1 لمسار CanvasKit مستقل. يقبل الدخول المحاكى بيانات تجريبية؛ استخدم learner@example.test دون كلمة مرور حقيقية. التخزين محلي في الجهاز أو المتصفح وليس حساباً بعيداً.
 
-## التفاصيل والأوامر
+## الأوامر
 
-Install with `npm ci`. Start using `npm start`, web with `npm run web`, check types with `npm run typecheck`, and export web with `npm run build:web`. No server credentials are required for mock authentication or assistant replies. Serve exported `dist/` over HTTP; do not open it as file URLs.
+```sh
+npm ci
+npm run typecheck
+npm run web
+# Static browser preview:
+npm run build:web
+python -m http.server 8092 --directory dist
+```
 
-## متغيرات تقرأها الشيفرة
+## جرد الإعداد
 
-| Variable | Source consumer | Configuration rule |
+| المتغير | موضع الاستخدام | قاعدة الإعداد |
 |---|---|---|
 
 
-لا تُحمَّل ملفات الأمثلة تلقائياً. تستخدم وحدات dotenv الملف حيث تكون مهيأة، ويستخدم PHP بيئة العملية أو الاستضافة. افصل المزودين عن العرض وأنشئ أسراراً جديدة واحفظها خارج المستودع.
+ليست كل متغيرات الجرد إلزامية. تحدد الفقرة الأولى قيم التشغيل الأساسية، وتلزم قيم المزود للتكامل الحي المفعل فقط. تتجاوز DEMO_API_URL هدف الفحص المحلي عند دعمه. لا توجه أوامر التعبئة والاستعادة والفحص لقاعدة إنتاج. لا تُحمّل أمثلة البيئة نفسها تلقائياً؛ جهز بيئة العملية أو dotenv حيث يستخدمه المكون.
 
-## أوامر المكونات
+## المكونات
 
-### `package.json`
-
-```json
-{
-  "start": "expo start",
-  "android": "expo start --android",
-  "ios": "expo start --ios",
-  "typecheck": "tsc --noEmit",
-  "fix-deps": "expo install --fix",
-  "web": "expo start --web",
-  "build:web": "expo export --platform web"
-}
-```
+| المكون | المسؤولية |
+|---|---|
+| `app/` | شاشات Expo Router |
+| `src/` | الحالة والمنهج والمساعد المحاكى ووحدات الواجهة |
+| `index.web.js` | مدخل تهيئة الويب |
+| `assets/` | الخطوط والأصول المرئية |

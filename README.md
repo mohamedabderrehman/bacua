@@ -91,3 +91,22 @@ Open an issue describing a reproducible problem, expected behavior and component
 ## License and attribution
 
 Source code is MIT licensed. Third-party dependencies and assets retain their own terms; see [attribution](THIRD_PARTY_NOTICES.md).
+
+<!-- release-presentation -->
+
+## Actual application interface
+
+![BACUA — interface with synthetic demonstration data](docs/images/mock-chat.jpg)
+
+Captured from the local application with synthetic records. This does not establish production usage or Android device verification.
+
+## Verification and deeper reading
+
+Type checking and static Expo web export passed. An incremental Markdown parser could loop forever on a partial table header during streaming; its pure parser now has prefix regression checks. The default web preview uses the existing non-Skia fallback. Browser checks passed completed mock replies, conversation restoration after refresh and cancellation. Mock sign-in and the visible demonstration label are retained. Native device and opt-in CanvasKit verification are separate remaining checks.
+
+Authentication and assistant responses are local mocks. The default browser fallback is the supported demonstration path; enabling EXPO_PUBLIC_ENABLE_SKIA_WEB=1 opts into a separately unverified CanvasKit path. No real AI, remote account security or cross-device synchronization is claimed.
+
+- [Case study](docs/case-study.md)
+- [Verification](docs/verification.md)
+- [Architecture diagram](docs/architecture.svg)
+- [Portfolio case study](https://mohamed-abderrehmane-portfolio.wry-dog-0796.chatgpt.site/projects/bacua/)

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "expo-qr.png",
+    "sha256": "07bd77946fef0fa0b1331e06d44710df41da82cfd402b475ddbec8ddc8b73a24",
+    "scope": "Original supplied application asset; third-party rights are separate from source MIT"
+  },
+  {
+    "path": "docs/architecture.svg",
+    "sha256": "07d32c775a9a878aa7175ff8f963a940cf4858ec171062814a437ad8faa23edc",
+    "scope": "Actual synthetic application capture"
+  },
+  {
+    "path": "docs/images/mock-chat.jpg",
+    "sha256": "051337f230f8d01c877e80fc9d884866d086d8d13890e02b24d34b6d4c7c6cdd",
+    "scope": "Actual synthetic application capture"
+  },
+  {
+    "path": "docs/images/onboarding-desktop.jpg",
+    "sha256": "80e631cdf5780ddb04a792de719a34e82b0c7939b0f8071a6fe831c2b81e7f99",
+    "scope": "Actual synthetic application capture"
+  }
+]
