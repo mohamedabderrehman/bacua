@@ -110,3 +110,5 @@ Authentication and assistant responses are local mocks. The default browser fall
 - [Verification](docs/verification.md)
 - [Architecture diagram](docs/architecture.svg)
 - [Portfolio case study](https://mohamed-abderrehmane-portfolio.hillock-factual9mupt.chatgpt.site/projects/bacua/)
+
+- [Engineering details and implementation lessons](docs/engineering-notes.md)
