@@ -94,10 +94,6 @@ Source code is MIT licensed. Third-party dependencies and assets retain their ow
 
 <!-- release-presentation -->
 
-## Actual application interface
-
-
-Captured from the local application with synthetic records. This does not establish production usage or Android device verification.
 
 ## Verification and deeper reading
 
