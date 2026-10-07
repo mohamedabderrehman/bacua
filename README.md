@@ -1,10 +1,10 @@
 # BACUA
 
-**An Arabic BAC study app frontend**
+**An Algerian BAC study app frontend**
 
 [العربية](README.ar.md)
 
-Make Algerian BAC curriculum navigation, lesson reading and contextual study conversations understandable on an Arabic mobile interface.
+An Algerian BAC study frontend for curriculum navigation, lesson reading and contextual study conversations.
 
 **Technology:** Expo 54 · React Native · TypeScript · Zustand · Skia
 

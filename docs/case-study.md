@@ -1,8 +1,8 @@
-# An Arabic BAC study app frontend
+# An Algerian BAC study app frontend
 
 ## From the problem to the implementation
 
-Make Algerian BAC curriculum navigation, lesson reading and contextual study conversations understandable on an Arabic mobile interface.
+An Algerian BAC study frontend for curriculum navigation, lesson reading and contextual study conversations.
 
 Choose a stream → open a subject and lesson → mark progress → hand lesson context to chat → receive/cancel a mock streamed reply → restore local state after restart.
 

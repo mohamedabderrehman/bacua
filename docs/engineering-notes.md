@@ -1,6 +1,6 @@
 ## A frontend with a clear integration boundary
 
-BACUA explores an Arabic Algerian BAC study experience through onboarding, stream selection, structured lessons, progress and contextual chat. Its value is in the interface and state transitions. Authentication and assistant replies are mocked; the AIProvider contract marks where a real service could later connect without claiming that integration exists today.
+BACUA explores an Algerian BAC study experience through onboarding, stream selection, structured lessons, progress and contextual chat. Its value is in the interface and state transitions. Authentication and assistant replies are mocked; the AIProvider contract marks where a real service could later connect without claiming that integration exists today.
 
 Conversations and reading progress persist locally. Lesson context can move into a conversation, streamed text updates the interface, and cancellation stops an in-progress mock reply. These interactions require consistent state across navigation, refresh and interrupted output. Explicit RTL choices and Arabic typography are part of the layout rather than a translated label layer.
 
