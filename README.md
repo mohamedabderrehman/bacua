@@ -96,7 +96,6 @@ Source code is MIT licensed. Third-party dependencies and assets retain their ow
 
 ## Actual application interface
 
-![BACUA — interface with synthetic demonstration data](docs/images/mock-chat.jpg)
 
 Captured from the local application with synthetic records. This does not establish production usage or Android device verification.
 

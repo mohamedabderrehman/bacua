@@ -26,13 +26,13 @@
   },
   {
     "path": "README.ar.md",
-    "bytes": 6734,
-    "sha256": "87235e3a4000276d59240ee0d52abb3786cc33f79e19092f01f52f3c2e6dd0bc"
+    "bytes": 6650,
+    "sha256": "641b841aa7e7f7312973cb81b6fcdd8e7fe701628f2a7fc59d5a7de698b217cd"
   },
   {
     "path": "README.md",
-    "bytes": 5558,
-    "sha256": "cedea38dc7e6d015d8c8e0a871fd3709ded6d0983d9f9cd5a482b38829342637"
+    "bytes": 5473,
+    "sha256": "119a03814bcb79d1ba8a238cc3431b06f72a2cf423311ef6c3854d1c6810039e"
   },
   {
     "path": "SECURITY.md",
@@ -131,8 +131,8 @@
   },
   {
     "path": "docs/asset-manifest.json",
-    "bytes": 800,
-    "sha256": "15ca44110dc4c71159446f8a9a1ae11b61481ce232da4a32f5476cb9df72cf0a"
+    "bytes": 413,
+    "sha256": "ee875565a6e44cf9b10c7e2baee966508b09ff96ae2cb54553a86cb51a764a2f"
   },
   {
     "path": "docs/case-study.ar.md",
@@ -175,16 +175,6 @@
     "sha256": "090cb902de90f14124a5bad05be0c1e679b76fed6629281dd7bf2ed474ad9bff"
   },
   {
-    "path": "docs/images/mock-chat.jpg",
-    "bytes": 14880,
-    "sha256": "051337f230f8d01c877e80fc9d884866d086d8d13890e02b24d34b6d4c7c6cdd"
-  },
-  {
-    "path": "docs/images/onboarding-desktop.jpg",
-    "bytes": 16589,
-    "sha256": "80e631cdf5780ddb04a792de719a34e82b0c7939b0f8071a6fe831c2b81e7f99"
-  },
-  {
     "path": "docs/publication.ar.md",
     "bytes": 707,
     "sha256": "755c30302497a6290a9b9cef5ae16f64eb6fd2deac6ef1059ddda0c3e31f131f"
@@ -206,13 +196,13 @@
   },
   {
     "path": "docs/verification.ar.md",
-    "bytes": 1993,
-    "sha256": "31591bd2bae9553a5d831f98ad7fb24e4b32b7b269091e3d546775fe63a201c9"
+    "bytes": 2008,
+    "sha256": "9e1fe226827b6c8ee32e6fe3acfc7d67ab83dbd365fc0071fb14332130ae198d"
   },
   {
     "path": "docs/verification.md",
-    "bytes": 1718,
-    "sha256": "79e020334da826f56052be1d920edad63ff83183dde9c4791975345a9f80865a"
+    "bytes": 1737,
+    "sha256": "5f4e83f2228f0012992393ff2ca4bd978b341571201177f49f9f1544c526ae6c"
   },
   {
     "path": "expo-qr.png",
