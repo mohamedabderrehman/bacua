@@ -94,6 +94,6 @@ UI -. optional web canvas .-> CanvasKit
 - [دراسة المشروع](docs/case-study.ar.md)
 - [التحقق](docs/verification.ar.md)
 - [مخطط البنية](docs/architecture.svg)
-- [صفحة المشروع](https://mohamed-abderrehmane-portfolio.hillock-factual9mupt.chatgpt.site/ar/projects/bacua/)
+- [صفحة المشروع](https://mohamedabderrehmane.netlify.app/ar/projects/bacua/)
 
 - [تفاصيل هندسية ودروس التنفيذ](docs/engineering-notes.ar.md)
